@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import MyApp from './MyApp';
 import reportWebVitals from './reportWebVitals';
+import MyExampleButton from './component/metadata/MyExampleButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <MyApp />
+    <MyExampleButton author="zhuyuanfu" />
   </React.StrictMode>
 );
 

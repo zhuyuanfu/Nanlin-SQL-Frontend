@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MyExampleButton from './component/metadata/MyExampleButton';
 
 function MyApp() {
   return (
@@ -9,6 +10,7 @@ function MyApp() {
         <p>
           Edit <code>src/App.js</code> and save to reload. Hello world!
         </p>
+        <MyExampleButton author='zyf!' />
         <a
           className="App-link"
           href="https://reactjs.org"
